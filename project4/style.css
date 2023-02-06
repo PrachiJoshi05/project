@@ -1,0 +1,93 @@
+body {
+  background-color: #3d087b;
+}
+div {
+  display: inline-block;
+}
+.clock {
+  height: 200px;
+  width: 200px;
+}
+
+.popup1,
+.popup2 {
+  height: 60px;
+  width: 200px;
+  border: 1px solid #00000029;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 30px #00000029;
+  color: #858585;
+  text-align: left;
+}
+.bg1 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  opacity: 0.22;
+}
+.bg2 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  opacity: 0.71;
+}
+.timer {
+  background-color: #ffffff;
+}
+.box2,
+.box3,
+.box4 {
+  background-image: url(./timeline.png);
+  color: #8a11bf;
+}
+
+.box5 {
+  background-image: url(./AM_svg.png);
+  color: #ffffff;
+}
+
+.colon {
+  color: #8a11bf;
+}
+
+.schedule {
+  width: 570px;
+  height: 370px;
+  margin-top: 20px;
+  background-color: white;
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.wakeup,
+.lunch,
+.nap,
+.night {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.suggest {
+  background-color: #ffffff;
+  color: #8e53f0;
+}
+.msg {
+  color: #ffffff;
+  background-color: #ffffff;
+  opacity: 0.23;
+}
+.alarm {
+  background: transparent
+    linear-gradient(113deg, #6e54ec 0%, #cb52f8 40%, #fc5eff 81%, #f1a7c5 100%)
+    0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+}
+.timetable {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  opacity: 0.23;
+}
